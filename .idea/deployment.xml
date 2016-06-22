@@ -5,7 +5,7 @@
       <paths name="NodeJS">
         <serverdata>
           <mappings>
-            <mapping deploy="opt/NodeJS/library" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/opt/NodeJS/library" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
