@@ -13,7 +13,7 @@ app.engine('.hbs', handlebars({extname: '.hbs'}));
 app.set('view engine', '.hbs');
 
 app.get('/', function (req, res) {
-   res.render('index', {list: ['a','b']});
+   res.render('index', {title: 'Hello from render', list: ['a','b']});
 });
 
 app.get('/Books', function (req, res) {
